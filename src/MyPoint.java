@@ -15,24 +15,9 @@ public class MyPoint {
     public int getX() {
         return x;
     }
-    // get int array of XY
-    public int[] getXY() {
-        return new int[]{x,y};
-    }
 
     // setters
 
-    public void setX(int x) {
-        this.x = x;
-    }
-
-    public void setY(int y) {
-        this.y = y;
-    }
-    public void setXY(int x, int y) {
-        this.x = x;
-        this.y = y;
-    }
     // method to calc distance from MyPoint Object
     public double distance(MyPoint another) {
         int xDiff = this.x - another.x;
@@ -46,4 +31,4 @@ public class MyPoint {
     }
 
 }
-// addding comments for commit hhhh
+// adding comments for commit hhhh

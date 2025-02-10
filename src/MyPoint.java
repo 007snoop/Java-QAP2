@@ -31,4 +31,3 @@ public class MyPoint {
     }
 
 }
-// adding comments for commit hhhh

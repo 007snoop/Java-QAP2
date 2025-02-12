@@ -27,7 +27,7 @@ public class CreditCardDemo {
         System.out.println("Balance: " + visa.getBalance());
 
         System.out.println("Attempt to pay " + THIRD_AMOUNT);
-        visa.pay(THIRD_AMOUNT);
+        visa.pay(THIRD_AMOUNT); // had to change this line
         System.out.println("Balance: " + visa.getBalance());
 
         System.out.println("Attempt to charge " + FOURTH_AMOUNT);
